@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Katalog filmowy</title>
+</head>
+<body>
+    <nav></nav>
+    <main>
+        <header>KATALOG FILMOWY</header>
+        <section>
+            <div id="mainContainer">
+                <div id="favouritesContainer">
+                    <div class="mc-margin-20px">
+                        <input type="text" placeholder="Wpisz nazwę filmu ..." id="movieNameInput" ></input>
+                        <button id="addBtn" onClick="onAddBtnClick()">Dodaj</button>
+                    </div>
+                    <div class="mc-margin-20px">
+                        <span> Ulubione: 
+                            <span id="moviesCounter"> </span>
+                        </span>
+                        <div id="favouritesListContainer">
+                            <ul id="favouritesList">
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="advertsContainer"></div>
+                </div>
+                <div id="searchContainer">
+                    <div class ="mc-margin-20px" class="mc-margin-20px">
+                        <input placeholder="Wpisz nazwę filmu" type="text" id="movieSearchNameInput"></input> 
+                        <button id="searchBtn" onclick="onSearchBtnClick()">Szukaj</button>
+                    </div>
+                    <div id ="foundMovieContainer" class="mc-margin-20px">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    
+<script src="index.js" defer></script> 
+</body>
+</html>

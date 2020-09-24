@@ -1,0 +1,47 @@
+body {
+    margin: 0, auto;
+}
+
+header{
+    text-align: center;
+    font-size: 18px;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 700px;
+    background-color:red;
+    display: flex;
+}
+
+#favouritesContainer {
+    height: 100%;
+    flex: 1;
+    background-color: lightgray;
+}
+
+#searchContainer {
+    height: 100%;
+    flex: 1;
+    background-color: darkgray;
+}
+
+#favouritesListContainer {
+    background-color: white;
+    width: 50%;
+    Height: 400px;
+    overflow: auto;
+}
+
+#advertsContainer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(206, 206, 50);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mc-margin-20px {
+    margin: 20px;
+}
